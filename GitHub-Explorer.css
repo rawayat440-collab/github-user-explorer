@@ -1,0 +1,233 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: rgb(41, 36, 29);
+    height: 100vh;
+color: azure;
+     padding: 10px;
+    margin: 10px;
+    margin-top: 30px;
+
+}
+
+#GitHub-User{
+   margin-top: 100px;
+    text-align: center;
+    font-size: 80px;
+    font-weight: 600;
+    text-shadow: 10px 10px 10px white;
+}
+#search_box{
+    text-align: center;
+}
+
+#Search-any{
+  
+      text-align: center;
+      font-size: 50px;
+      font-weight: 600;
+}
+
+label{
+    align-items: center;
+  
+    font-size: 40px;
+      font-weight: 500;
+      
+}
+#UserName{
+  
+    font-size: 18px;
+}
+input{
+     text-align: center;
+    height: 30px;
+    width: 200px;
+}
+
+#Search{
+      text-align: center;
+    padding: 2px;
+    height: 40px;
+    width: 150px;
+    transition: 0.3s;
+    cursor:pointer;
+        font-size: 30px;
+      font-weight: 500;
+      margin-bottom: 5px;
+      
+     
+}
+
+#Search:hover{
+    background-color: rgb(107, 103, 103);
+    box-shadow: 5px 5px 5px whitesmoke;
+}
+#repostryContainer{
+display: grid;
+grid-template-columns:repeat(3 , 1fr);
+gap: 20px;
+justify-content: center;
+
+}
+
+ #repostryContainer>div{
+    justify-content: center;
+    border: 2px solid rgb(71, 32, 32);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 15px;
+    height: 200px;
+  
+    background-color: rgb(241, 241, 241);
+     color: black;
+      box-shadow: 8px 8px 8px rgb(76, 1, 216);
+     transition:transform 1s ease;
+    
+     
+} 
+#repostryContainer>div:hover{
+transform: scale(1.09);
+}
+#result{
+    text-align: center;
+     font-size: 20px;
+}
+img{
+    margin-top: 10px;
+    height: 300px;
+    border-radius: 10px;
+box-shadow: 5px 5px 10px rgb(93, 3, 197);
+margin-bottom: 10px;
+
+
+}
+#result a{
+    color: rgb(231, 8, 8);
+}
+
+
+
+@media (max-width : 768px) {
+    body{
+        padding :10px;
+    }
+    #result{
+        font-size: 20px;
+
+    }
+  
+      #GitHub-User{
+        font-size: 50px;
+    }
+    #search-any{
+        font-size: 30px;
+    }#label{
+        font-size: 30px;
+    }
+    #UserName{
+  
+    font-size: 15px;
+}
+input{
+   
+    height: 20px;
+    width: 150px;
+}
+
+#Search{
+    height: 20px;
+    width: 100px;
+    font-size: 20px;
+
+}
+#repostryContainer{
+
+grid-template-columns:repeat(2 , 1fr);
+gap: 10px;
+
+
+}
+
+ #repostryContainer>div{
+   
+    padding: 14px;
+    margin: 14px;
+ 
+    height: 150px;
+ } 
+
+img{
+    margin-top: 6px;
+    height: 200px;
+
+margin-bottom: 6px;
+
+    
+}
+    
+}
+
+@media (max-width : 600px) {
+      body{
+        padding :10px;
+    }
+    #result{
+        font-size: 10px;
+
+    }
+  
+      #GitHub-User{
+        font-size: 30px;
+    }
+    #search-any{
+        font-size: 18px;
+    }#label{
+        font-size: 20px;
+    }
+    #UserName{
+  
+    font-size: 10px;
+}
+input{
+   
+    height: 15px;
+    width: 100px;
+}
+
+#Search{
+    height: 15px;
+    width: 60px;
+    font-size: 15px;
+
+}
+#repostryContainer{
+
+grid-template-columns:repeat( 1, 1fr);
+gap: 8px;
+
+
+}
+
+ #repostryContainer>div{
+   
+    padding: 8px;
+    margin: 8px;
+ 
+    height: 100px;
+ } 
+
+img{
+    margin-top: 6px;
+    height: 140px;
+
+margin-bottom: 6px;
+
+    
+}
+    
+    
+}
