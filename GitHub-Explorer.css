@@ -139,10 +139,9 @@ input{
 }
 
 #Search{
-    height: 20px;
-    width: 150px;
-    font-size: 15px;
-
+    height: 30px;
+    width: 100px;
+    font-size: 16px;
 }
 #repostryContainer{
 
@@ -202,7 +201,6 @@ input{
     height: 15px;
     width: 100px;
     font-size: 10px;
-
 }
 #repostryContainer{
 
